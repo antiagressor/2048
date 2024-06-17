@@ -15,7 +15,7 @@ spec:
         app: ci-game-2048
     spec:
       containers:
-        - name: game-2048
+        - name: ci-game-2048
           image: antiagressor/2048:latest
           ports:
             - containerPort: 80
