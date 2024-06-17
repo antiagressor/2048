@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // Create a title
+    const header = document.createElement('div');
+    header.className = 'header';
+    header.textContent = 'My Test Project';
+
+    // Add the title above game desk
+    const gameBoard = document.getElementById('game-board');
+    gameBoard.parentNode.insertBefore(header, gameBoard);
+
     const board = document.getElementById("game-board");
     const tiles = [];
 
