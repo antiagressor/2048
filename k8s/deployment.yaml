@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ci-game-2048
+  labels:
+    app: ci-game-2048
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ci-game-2048
+  template:
+    metadata:
+      labels:
+        app: ci-game-2048
+    spec:
+      containers:
+        - name: game-2048
+          image: antiagressor/2048:latest
+          ports:
+            - containerPort: 80
