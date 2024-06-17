@@ -44,4 +44,4 @@ jobs:
         git commit -m 'Update deployment image to ${{ secrets.DOCKER_USERNAME }}/2048:${{ env.VERSION }}'
         git push origin main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MY_TOKEN_2048 }}
