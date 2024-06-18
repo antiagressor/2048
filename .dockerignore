@@ -1,2 +1,5 @@
-.github/
+.github
+k8s
+Dockerfile
 2048-deployment.yaml
+README.md
