@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\.github",
-    "\\.github\\workflows",
-    "\\k8s"
+    "\\.github\\workflows"
   ],
-  "SelectedNode": "\\2048-ingress.yaml",
+  "SelectedNode": "\\main.js",
   "PreviewInSolutionExplorer": true
 }
