@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\k8s"
   ],
-  "SelectedNode": "\\E:\\HP_Laptop\\Work\\Home_Projects\\2048",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\2048-ingress.yaml",
+  "PreviewInSolutionExplorer": true
 }
