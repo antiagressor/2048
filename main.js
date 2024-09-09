@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Create a title
     const header = document.createElement('div');
     header.className = 'header';
-    header.textContent = 'My Test Project_new_version_09092024';
+    header.textContent = 'My Test Project_new_version2024';
 
     // Add the title above game desk
     const gameBoard = document.getElementById('game-board');
