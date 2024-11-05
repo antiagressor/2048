@@ -1,5 +1,8 @@
 .github
+.dockerignore
+.git
 k8s
 Dockerfile
 2048-deployment.yaml
+2048-ingress.yaml
 README.md
