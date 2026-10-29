@@ -17,6 +17,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: game-2048
+            name: ci-game-2048
             port:
               number: 80
